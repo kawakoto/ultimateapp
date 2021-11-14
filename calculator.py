@@ -1,4 +1,3 @@
-
 lol = input("What do you want to do?")
 
 if lol == "add":
