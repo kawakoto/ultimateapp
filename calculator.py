@@ -11,3 +11,4 @@ if lol == "minus":
     bminus = int(input("enter second number: "))
     summinus = aminus - bminus
     print("sum:", summinus)
+
