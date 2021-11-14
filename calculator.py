@@ -11,15 +11,3 @@ if lol == "minus":
     bminus = int(input("enter second number: "))
     summinus = aminus - bminus
     print("sum:", summinus)
-
-if lol == "multiply":
-    amul = int(input("enter first number: "))
-    bmul = int(input("enter second number: "))
-    summul = amul * bmul
-    print("sum:", summul)
-
-if lol == "division":
-    adiv = int(input("enter first number: "))
-    bdiv = int(input("enter second number: "))
-    sumdiv = adiv / bdiv
-    print("sum:", sumdiv)
