@@ -1,3 +1,7 @@
+import PySimpleGUI as sg
+
+sg.Window(title="Hello World", layout=[[]], margins=(300, 500)).read()
+
 lol = input("What do you want to do?")
 
 if lol == "add":
@@ -12,8 +16,6 @@ if lol == "minus":
     summinus = aminus - bminus
     print("sum:", summinus)
 
-<<<<<<< HEAD
-=======
 if lol == "multiply":
     amul = int(input("enter first number: "))
     bmul = int(input("enter second number: "))
@@ -25,4 +27,3 @@ if lol == "division":
     bdiv = int(input("enter second number: "))
     sumdiv = adiv / bdiv
     print("sum:", sumdiv)
->>>>>>> 2057aa0 (added multi and div)
