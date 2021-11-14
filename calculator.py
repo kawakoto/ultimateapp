@@ -1,6 +1,3 @@
-import PySimpleGUI as sg
-
-sg.Window(title="Hello World", layout=[[]], margins=(300, 500)).read()
 
 lol = input("What do you want to do?")
 
