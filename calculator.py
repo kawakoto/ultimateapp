@@ -86,8 +86,8 @@ class Application(Frame):
 		self.minusButton = Button(self, font=("Helvetica", 11), text="-", borderwidth=0, command=lambda: self.appendToDisplay("-"))
 		self.minusButton.grid(row=3, column=3, sticky="NWNESWSE")
 
-		self.equalsButton = Button(self, font=("Helvetica", 11), text="=", borderwidth=0, command=lambda: self.calculateExpression())
-		self.equalsButton.grid(row=3, column=4, sticky="NWNESWSE", rowspan=2)
+		self.piButton = Button(self, font=("Helvetica", 11), text="pi", borderwidth=0, command=lambda: self.appendToDisplay("3.14159265359"))
+		self.piButton.grid(row=3, column=4, sticky="NWNESWSE")
 
 #This is the Fourth Row
 		self.zeroButton = Button(self, font=("Helvetica", 11), text="0", borderwidth=0, command=lambda: self.appendToDisplay("0"))
@@ -98,8 +98,8 @@ class Application(Frame):
 
 		self.plusButton = Button(self, font=("Helvetica", 11), text="+", borderwidth=0, command=lambda: self.appendToDisplay("+"))
 		self.plusButton.grid(row=4, column=3, sticky="NWNESWSE")
-		self.piButton = Button(self, font=("Helvetica", 11), text="pi", borderwidth=0, command=lambda: self.appendToDisplay("3.14159265359"))
-		self.piButton.grid(row=4, column=5, sticky="NWNESWSE")
+		self.equalsButton = Button(self, font=("Helvetica", 11), text="=", borderwidth=0, command=lambda: self.calculateExpression())
+		self.equalsButton.grid(row=4, column=4, sticky="NWNESWSE")
 
 
 app = Application(calculator).grid()		
