@@ -98,6 +98,8 @@ class Application(Frame):
 
 		self.plusButton = Button(self, font=("Helvetica", 11), text="+", borderwidth=0, command=lambda: self.appendToDisplay("+"))
 		self.plusButton.grid(row=4, column=3, sticky="NWNESWSE")
+		self.piButton = Button(self, font=("Helvetica", 11), text="pi", borderwidth=0, command=lambda: self.appendToDisplay("3.14159265359"))
+		self.piButton.grid(row=4, column=5, sticky="NWNESWSE")
 
 
 app = Application(calculator).grid()		
