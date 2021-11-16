@@ -51,7 +51,7 @@ class Application(Frame):
 		self.nineButton = Button(self, font=("Helvetica", 11), text="9", borderwidth=0, command=lambda: self.appendToDisplay("9"))
 		self.nineButton.grid(row=1, column=2, sticky="NWNESWSE")
 
-		self.timesButton = Button(self, font=("Helvetica", 11), text="*", borderwidth=0, command=lambda: self.appendToDisplay("*"))
+		self.timesButton = Button(self, font=("Helvetica", 11), text="x", borderwidth=0, command=lambda: self.appendToDisplay("*"))
 		self.timesButton.grid(row=1, column=3, sticky="NWNESWSE")
 
 		self.clearButton = Button(self, font=("Helvetica", 11), text="C", borderwidth=0, command=lambda: self.clearText())
